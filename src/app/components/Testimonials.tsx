@@ -154,23 +154,6 @@ export default function Testimonials() {
         ))}
       </div>
 
-      {/* Mídia */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-16 mt-16 text-center">
-        <p className="text-[#6B4E35] text-sm mb-8">
-          Somos referência na mídia baiana em tratamentos de estética
-        </p>
-        <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-14">
-          {mediaLogos.map((logo, i) => (
-            <span
-              key={i}
-              className="font-bold text-[#2C1A0E]/40 tracking-tight"
-              style={{ fontSize: 'clamp(0.9rem, 2vw, 1.2rem)' }}
-            >
-              {logo}
-            </span>
-          ))}
-        </div>
-      </div>
 
     </section>
   )
