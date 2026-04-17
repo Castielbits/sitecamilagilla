@@ -1,3 +1,17 @@
 node_modules/
 .next/
 .env*
+
+# Build artifacts
+tsconfig.tsbuildinfo
+
+# Internal docs and drafts (não vão pro deploy)
+docs/
+rascunho-html/
+.claude/
+
+# Client deliverables (não devem ficar públicos no repo)
+Proposta-Comercial-*.pdf
+
+# Portfolio de outros clientes (usado só na proposta comercial)
+imagem/portifolio/
