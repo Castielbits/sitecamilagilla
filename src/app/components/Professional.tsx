@@ -18,8 +18,7 @@ export default function Professional() {
             {/* Badge superior esquerdo */}
             <div
               className="absolute left-2 lg:-left-8 top-1/3 flex items-center gap-2 bg-white rounded-full px-3 py-2 lg:px-4 lg:py-2.5 shadow-lg"
-              style={{ animation: 'float 5s ease-in-out infinite' }}
-              style={{ border: '1px solid #F2E9DE' }}
+              style={{ border: '1px solid #F2E9DE', animation: 'float 5s ease-in-out infinite' }}
             >
               <div className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#FEF3C7' }}>
                 <svg className="w-4 h-4" style={{ color: '#C9A96E' }} fill="currentColor" viewBox="0 0 20 20">
@@ -32,8 +31,7 @@ export default function Professional() {
             {/* Badge inferior direito */}
             <div
               className="absolute right-2 lg:-right-8 bottom-1/4 flex items-center gap-2 bg-white rounded-full px-3 py-2 lg:px-4 lg:py-2.5 shadow-lg"
-              style={{ animation: 'float-slow 7s ease-in-out infinite 1.5s' }}
-              style={{ border: '1px solid #F2E9DE' }}
+              style={{ border: '1px solid #F2E9DE', animation: 'float-slow 7s ease-in-out infinite 1.5s' }}
             >
               <div className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#FEF3C7' }}>
                 <svg className="w-4 h-4" style={{ color: '#C9A96E' }} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
